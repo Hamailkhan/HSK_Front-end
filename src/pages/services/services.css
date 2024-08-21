@@ -1,0 +1,10 @@
+.service-card {
+  background: var(--main-color1);
+  box-shadow: 2px 2px 5px #0005;
+}
+
+@media (hover: hover) {
+  .service-card:hover {
+    transform: translateY(-2px);
+  }
+}

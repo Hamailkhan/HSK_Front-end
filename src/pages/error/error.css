@@ -1,0 +1,11 @@
+.error {
+  color: #000;
+  font-size: calc(20px + 2vmin);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-transform: capitalize;
+  gap: 30px;
+}

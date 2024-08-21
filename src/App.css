@@ -1,0 +1,69 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+:root {
+  --main-color: #000;
+  --main-color1: #f4f4f4;
+  --text-color: #fff;
+  --text-size: calc(1px + 1vw);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--main-color1);
+}
+
+.container {
+  width: 100%;
+  min-height: 80vh;
+}
+
+.fig {
+  width: 100%;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  position: absolute;
+}
+
+.btn {
+  background: var(--main-color);
+  color: var(--text-color);
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  cursor: pointer;
+  font-weight: 400;
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
